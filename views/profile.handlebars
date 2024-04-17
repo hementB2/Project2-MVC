@@ -1,0 +1,62 @@
+<div class="row">
+  <div class="col-auto">
+    <h2>Welcome, {{name}}!</h2>
+     <h2> Course enrolled in: {{project.name}}!</h2>
+  </div>
+</div>
+
+<script>
+  $(function() {
+  $("#accordion").accordion({
+    collapsible: true
+  });
+} 
+);
+</script>
+
+<div id="accordion">
+
+{{#if projects.length}}
+
+{{#each projects as |project|}}
+
+<h3>Module:{{project.name}}</h3>
+
+<ul><a href="/project/{{project.id}}">{{project.description}}</a></ul>
+
+{{/each}}
+ {{/if}}
+ </div>
+ 
+ <div class="container">
+        <p>Profile Picture Upload</p>
+
+           <img alt="" src="{{image}}"/>
+        <form id='form'>
+          {{!-- User contact information fields, their phone number, emergency contact name and emergency contact --}}
+           {{!-- <input type ="hidden" value="{{id}}" id="userId"> --}}
+            <div class="input-group">
+                <label for='phoneNumber'>Phone Number</label>
+                <input name='phoneNumber' id='phoneNumber' placeholder={{phoneNumber}}>
+            </div>
+             <div class="input-group">
+                <label for='emergencyName'>Emergency Contact Name</label>
+                <input name='emergencyName' id='emergencyName' placeholder={{emergencyName}}>
+            </div>
+             <div class="input-group">
+                <label for='emergencyPhone'>Emergency Contact Phone Number</label>
+                <input name='emergencyPhone' id='emergencyPhone' placeholder={{emergencyNumber}}>
+            </div>
+            <div class="input-group">
+                <label for='files'>Select files</label>
+                <input id='files' type="file" multiple>
+            </div>
+            <button class="submit-btn" type='submit'>Upload</button>
+        </form>
+    </div>
+    {{!-- <script src='./script.js'></script> --}}
+
+
+<script src="./js/profile.js"></script>
+
+
