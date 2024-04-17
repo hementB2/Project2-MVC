@@ -1,0 +1,34 @@
+[
+  {
+    "name": "HTML",
+    "description": "Headings, Paragraphs, attributes, Quotations, Comments"
+      
+  },
+
+  {
+    "name": "JavaScript",
+    "description": "Variables, Functions, Arrays"
+    
+    
+  },
+  {
+    "name": "CSS",
+    "description": "Colors, Background, Borders, Padding"
+   
+  },
+  {
+    "name": "Web APIs",
+    "description": "API-Key, Event Bubbling, Local Storage, Window Object"
+    
+  },
+  {
+    "name": "Express",
+    "description": "Body Parsing, Postman, Queries, Prams"
+    
+  },
+  {
+    "name": "SQL",
+    "description": "mySQL shell, Tables, DataTypes, Schema"
+    
+  }
+]

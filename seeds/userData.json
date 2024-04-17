@@ -1,0 +1,68 @@
+[
+  {
+    
+    "name": "Hement",
+    "email": "hement@hotmail.com",
+    "password": "12345",
+    "phoneNumber": 123456789,
+    "emergencyName": "ABC",
+    "emergencyNumber": 11111
+       
+      
+  },
+  
+  {
+    
+    "name": "Rubal",
+    "email": "rubal@gmail.com",
+    "password": "67890",
+    "phoneNumber": 123456789,
+    "emergencyName": "ABC",
+    "emergencyNumber": 11111
+      
+  },
+  {
+    
+    "name": "Sheryl ",
+    "email": "sheryl@aol.com",
+    "password": "246810",
+    "phoneNumber": 123456789,
+    "emergencyName": "ABC",
+    "emergencyNumber": 11111
+   
+    
+  },
+  {
+    
+    "name": "Robin",
+    "email": "sal@yahoo.com",
+    "password": "password54321",
+    "phoneNumber": 123456789,
+    "emergencyName": "ABC",
+    "emergencyNumber": 11111
+    
+   
+  },
+  {
+    
+    "name": "Chloe",
+    "email": "chloe@gmail.com",
+    "password": "p1a2s3s4word",
+    "phoneNumber": 123456789,
+    "emergencyName": "ABC",
+    "emergencyNumber": 11111
+    
+    
+  },
+  {
+    
+    "name": "Bobby",
+    "email": "bobby@gmail.com",
+    "password": "12345password",
+    "phoneNumber": 123456789,
+    "emergencyName": "ABC",
+    "emergencyNumber": 11111
+    
+    
+  }
+]
